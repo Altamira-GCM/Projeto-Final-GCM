@@ -1,0 +1,78 @@
+* {
+    margin: 0 auto;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#header {
+    background: linear-gradient(to right, #0b6c0b, #1eb11e);
+    padding: 20px;
+    color: #fff;
+    
+}
+
+.logo a {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+   
+.barra { 
+  margin-top: 1px;
+  display: flex;
+  justify-content:end;
+}
+
+.buscar form {
+    text-align: end;
+}
+
+
+.buscar input {
+  padding: 5px;
+  border-radius: 1px;
+  border-width: 0;
+}
+
+.buscar button {
+  padding: 5px;
+  border-width: 0;
+  border-radius: 1px;
+  background-color: #fff;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.sobre {
+    display: flex;
+    padding: 0px;
+    background-color: #024702;
+}
+
+.sobre ul {
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+}
+
+.sobre li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sobre li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sobre li a:hover {
+    text-decoration: underline;
+}
