@@ -1,0 +1,11 @@
+{
+  "name": "projeto-final-gcm",
+  "version": "1.0.0",
+  "description": "projeto final da disciplina",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Gustavo Bardavid",
+  "license": "ISC"
+}
