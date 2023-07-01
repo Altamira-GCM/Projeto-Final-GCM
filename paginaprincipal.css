@@ -2,6 +2,14 @@
     margin: 0 auto;
     padding: 2px;
     box-sizing: border-box;
+
+}
+
+main {
+    margin: 50px;
+    border: 2px solid #155d0c;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #header {
@@ -76,3 +84,32 @@
 .sobre li a:hover {
     text-decoration: underline;
 }
+
+.curso {
+    font-family: Arial, Helvetica, sans-serif  ;
+}
+
+.curso h1 {
+    background-color: rgb(251, 251, 251);
+}
+
+.curso ul {
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+}
+
+.curso li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.curso li a {
+    color: blue;
+    text-decoration: none;
+
+}
+.curso li a:hover {
+    text-decoration: underline;
+}
+
