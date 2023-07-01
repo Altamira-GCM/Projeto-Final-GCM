@@ -12,6 +12,13 @@ main {
     box-sizing: border-box;
 }
 
+footer {
+    background: linear-gradient(to right, #0b6c0b, #1eb11e);
+    padding: 20px;
+    color: #fff;
+    
+}
+
 #header {
     background: linear-gradient(to right, #0b6c0b, #1eb11e);
     padding: 20px;
