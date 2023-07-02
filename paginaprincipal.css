@@ -5,6 +5,10 @@
 
 }
 
+.main {
+    display: flex;
+}
+
 main {
     display: flexbox;
     justify-content: center;
