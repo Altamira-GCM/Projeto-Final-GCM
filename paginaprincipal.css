@@ -16,13 +16,14 @@
     margin: 50px;
     border: 2px solid #155d0c;
     padding: 20px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 .main ul {
     list-style-type:none ;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 .main li {
@@ -123,9 +124,14 @@ footer {
     text-decoration: none;
 }
 
+.sobre li span {
+    font-size: small;
+}
+
 .sobre li a:hover {
     text-decoration: underline;
 }
+
 
 .curso {
     font-family: Arial, Helvetica, sans-serif  ;
@@ -154,4 +160,3 @@ footer {
 .curso li a:hover {
     text-decoration: underline;
 }
-
