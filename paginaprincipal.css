@@ -6,6 +6,9 @@
 }
 
 main {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
     margin: 50px;
     border: 2px solid #155d0c;
     padding: 20px;
