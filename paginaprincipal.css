@@ -89,18 +89,21 @@ footer {
 
 
 .buscar input {
-  padding: 5px;
-  border-radius: 1px;
-  border-width: 0;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
 }
 
 .buscar button {
-  padding: 5px;
-  border-width: 0;
-  border-radius: 1px;
-  background-color: #fff;
-  margin-left: 0px;
-  cursor: pointer;
+    padding: 5px 10px;
+    background-color: #1c3f06;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 .sobre {
@@ -143,7 +146,7 @@ footer {
 }
 
 .curso h1, h2 {
-    background-image: url('icons/images.jpeg'); 
+    background-image: url('icons/images.jpeg');
     background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem no elemento */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
