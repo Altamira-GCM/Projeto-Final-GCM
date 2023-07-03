@@ -6,6 +6,7 @@
 }
 
 .main {
+    width: 90%;
     display: flex;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +18,28 @@
     border: 2px solid #155d0c;
     padding: 20px;
     box-sizing: border-box; 
+}
+
+.main aside img {
+    max-width: 150px;
+}
+
+.main aside p{
+    margin: 0 auto;
+    padding: 5px;
+    border-top: 0.8px solid #ccc;
+    border-bottom: 0.8px solid #ccc;
+}
+
+
+.main aside p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
 }
 
 .main ul {
@@ -39,15 +62,7 @@
 .main li a:hover {
     text-decoration: underline;
 }
-main {
-    display: flexbox;
-    justify-content: center;
-    text-align: center;
-    margin: 50px;
-    border: 2px solid #155d0c;
-    padding: 20px;
-    box-sizing: border-box;
-}
+
 
 footer {
     background: linear-gradient(to right, #0b6c0b, #1eb11e);
@@ -76,13 +91,27 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size:large;
 }
-   
+
+.barra {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barra span {
+    font-size: small;   
+    margin-top: 0 auto;
+    display: flex;
+    justify-content:end;
+}
+
 .barra p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;   
   margin-top: 0 auto;
   display: flex;
   justify-content:end;
+  color: black;
 }
 
 .buscar form {
@@ -138,21 +167,40 @@ footer {
     text-decoration: underline;
 }
 
+.sobre-curso {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+}
 
 .curso {
+
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    border: 2px solid #155d0c;
+    padding: 20px;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif  ;
 }
 
 .curso p {
+    margin: 0 auto;
+    padding: 10px;
     text-overflow: ellipsis;
 }
 
+
 .curso h1, h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top:5px solid rgb(1, 52, 6);
+    color: rgb(12, 92, 3);
     background-image: url('icons/images.jpeg');
-    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
-    background-position: center; /* Centraliza a imagem no elemento */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
-    padding: 20px; /* Adiciona um espaçamento interno ao redor do texto */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 20px; 
     color: #fff;
 }
 
