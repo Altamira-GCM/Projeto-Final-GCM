@@ -9,13 +9,12 @@
     width: 90%;
     display: flex;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main aside {
     box-sizing: border-box;
     margin: 50px;
-    border: 2px solid #155d0c;
+    border: 2px solid #073301;
     padding: 20px;
     box-sizing: border-box; 
 }
@@ -24,7 +23,7 @@
     max-width: 150px;
 }
 
-.main aside p{
+.main aside p {
     margin: 0 auto;
     padding: 5px;
     border-top: 0.8px solid #ccc;
@@ -50,12 +49,11 @@
 }
 
 .main li {
-    display: inline-block;
+    
     margin-right: 10px;
 }
 
 .main li a {
-    
     text-decoration: none;
 }
 
@@ -63,6 +61,29 @@
     text-decoration: underline;
 }
 
+.main aside h3 {
+    font-family: monospace;
+    border-top: 5px solid black;
+    background: linear-gradient(to right, #0b6c0b, #1eb11e);
+    padding: 5px;
+    color: #fff;
+}
+
+.main aside li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: #fff;
+}
+
+.main aside li a {
+    text-decoration: none;
+}
+
+.main aside li a:hover {
+    text-decoration: underline;
+}
 
 footer {
     background: linear-gradient(to right, #0b6c0b, #1eb11e);
@@ -72,6 +93,7 @@ footer {
 }
 
 #header {
+    border-top:5px solid #024702;
     background: linear-gradient(to right, #0b6c0b, #1eb11e);
     padding: 20px;
     color: #fff;
@@ -169,6 +191,7 @@ footer {
 
 .sobre-curso {
     display: flex;
+    flex-wrap:wrap-reverse;
     margin: 0 auto;
     padding: 10px;
 }
@@ -192,8 +215,22 @@ footer {
 }
 
 
-.curso h1, h2 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.curso h1 {
+    font-family: monospace;
+    border-top:5px solid rgb(1, 52, 6);
+    color: rgb(12, 92, 3);
+    background: linear-gradient(to right, #0b6c0b, #1eb11e);
+    /*background-image: url('icons/images.jpeg');*/
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 20px; 
+    color: #fff;
+}
+
+.curso h2 {
+    font-family: Arial, Helvetica, sans-serif   ;
+    font-size: medium;
     border-top:5px solid rgb(1, 52, 6);
     color: rgb(12, 92, 3);
     background-image: url('icons/images.jpeg');
@@ -202,6 +239,10 @@ footer {
     background-repeat: no-repeat; 
     padding: 20px; 
     color: #fff;
+}
+
+.curso h1 span {
+    width: 40px;
 }
 
 .curso ul {
