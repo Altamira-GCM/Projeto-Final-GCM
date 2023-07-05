@@ -1,3 +1,13 @@
+const botao = document.querySelector("#recovery");
+botao.addEventListener("click" , () => {
+    if(botao.value) {
+        let p = document.createElement("p");
+        p.textContent = `Acesse o link enviado para ${botao.value}`;
+        let form = document.querySelector("#form-group");
+        form.appendChild(p);
+    }
+})
+
 function exibirHoraAtual() {
     let data = new Date();
     let hora = data.getHours();
