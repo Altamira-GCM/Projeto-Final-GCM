@@ -19,7 +19,7 @@
     background: linear-gradient(to right, #E8F1F2, #ccd4d8);
     border: 1px solid #0015ff;
     box-sizing: border-box;
-    text-decoration: none;
+
     color: #000000;
 }
 
@@ -34,7 +34,6 @@
     border-color: #12ff01;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    text-decoration-line: none;
 }
 
 .titulo {
