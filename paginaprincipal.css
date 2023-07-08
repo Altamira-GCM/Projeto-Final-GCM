@@ -38,9 +38,11 @@
 
 .imgs {
     display: flex;
-    flex-direction: row;
 }
 
+.carrosel {
+    overflow: hidden;
+}
 .main ul {
     list-style-type:none ;
     margin: 0;
