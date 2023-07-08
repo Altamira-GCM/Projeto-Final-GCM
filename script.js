@@ -1,4 +1,5 @@
 const botao = document.querySelector("#recovery");
+
 botao.addEventListener("click" , () => {
     if(botao.value) {
         let p = document.createElement("p");
