@@ -1,0 +1,61 @@
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.grade {
+    flex: 1;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.grade a {
+    font-family: 'Roboto', sans-serif; 
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom:  0px;
+    background: linear-gradient(to right, #E8F1F2, #ccd4d8);
+    border: 1px solid #0015ff;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+}
+
+.grade span {
+    font-size: medium;   
+    margin-top: 0 auto;
+    display: flex;
+    justify-content:end;
+}
+
+.grade a:hover {
+    border-color: #12ff01;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E8F1F2;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-family: 'Roboto', sans-serif;
+    color:#3B7390;
+}
+
+.grade p {
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.grade h3 {
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; 
+}
