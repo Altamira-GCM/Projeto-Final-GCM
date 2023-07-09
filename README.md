@@ -6,6 +6,10 @@ Página reimaginada do Curso de ADS.
 
 Este projeto teve como objetivo colocar em prática pontos abordados durante a disciplina de Gerência de Configuração e Mudança do curso Análise e Desenvolvimento de Sistemas - Campus Cajazeiras
 
+#### Para este projeto, foram usadas as seguintes tecnologias: 
+
+    HTML, CSS e JAVASCRIPT
+
 ### 🚀 Como Usar
 Pré-requisitos
 
