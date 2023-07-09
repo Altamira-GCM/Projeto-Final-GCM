@@ -18,7 +18,7 @@ Navegador instalado e conexão com a internet.
 ### ✍️ Autores
 
 Gustavo David
-[!https://github.com/logos](https://github.com/gustavobardavid)
+[![logo github](https://github.com/logos)](https://github.com/gustavobardavid)
 
 Vinicius Benedito
-[!https://github.com/logos](https://github.com/vinisbene)
+[![logo github](https://github.com/logos)](https://github.com/vinisbene)
